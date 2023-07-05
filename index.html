@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png" alt="logo">
+    </header>
+
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite aqui mensagem para encriptografar."></textarea>
+    
+            <div class="Informacao">
+                <h6>Apenas letras minusculas e sem acento.</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+    
+        </section>
+    
+        <section>
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
